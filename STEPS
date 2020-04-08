@@ -1,0 +1,18 @@
+
+1. create grid 10 collumns 1 row / html css\
+ - additional cells
+2. create onclick button to create random number
+ - roll simulation
+ - randomiser (?) 10 pins
+3. put score into cells
+ - array for keeping score / state components
+ - push score in array / map through array 
+4. calculate TOTAL
+5. if statement
+ - knocks down all 10 pins on the first roll it’s a strike
+ - knocks down all 10 pins in two rolls it’s a spare
+
+
+
+
+
