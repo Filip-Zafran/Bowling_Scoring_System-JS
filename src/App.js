@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import pins from "./pix/pins.png";
+import "./App.css";
 
-function App() {
+function Header() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={pins} className="pins" alt="bowling pins" />
+        <p>Keep score! </p>
       </header>
     </div>
   );
 }
-
-export default App;
+export default Header;
