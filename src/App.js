@@ -1,15 +1,10 @@
 import React from "react";
-import pins from "./pix/pins.png";
 import "./App.css";
+import Header from "./components/Header";
+// import RightArrow from "../../src/logos/krug6.png";
 
-function Header() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={pins} className="pins" alt="bowling pins" />
-        <p>Keep score! </p>
-      </header>
-    </div>
-  );
+export default class App {
+  render() {
+    return <Header></Header>;
+  }
 }
-export default Header;
