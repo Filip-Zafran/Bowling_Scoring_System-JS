@@ -2,21 +2,21 @@ import React from "react";
 
 function Table() {
   return (
-    <table className="table">
+    <table>
       <tbody>
         <tr>
-          <th>Player</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
-          <th>6</th>
-          <th>7</th>
-          <th>8</th>
-          <th>9</th>
-          <th>10</th>
-          <th>TOT</th>
+          <td>Player</td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>TOT</td>
         </tr>
         <tr>
           <td>Player 1</td>
