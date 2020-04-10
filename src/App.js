@@ -1,10 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
-// import RightArrow from "../../src/logos/krug6.png";
 
-export default class App {
+export default class App extends Component {
   render() {
-    return <Header></Header>;
+    return (
+      <React.Fragment>
+        <Header></Header>
+
+        <div></div>
+      </React.Fragment>
+    );
   }
 }
