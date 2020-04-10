@@ -1,16 +1,16 @@
 import React from "react";
+import UIfx from "uifx";
 import bowlSound from "../pix/bowl.mp3";
 import strike from "../pix/strike.mp3";
 
 function Button() {
-  // var bowlSound = new Audio();
-  // bowlSound.src = "bowl.mp3";
-
-  //  strike = new Audio();
-  // strike.src = "strike.mp3";
+  function playSound() {
+    const bowlSound = new UIfx({ asset: bowlSound });
+    const strike = new UIfx({ asset: strike });
+  }
 
   return (
-    <button id="button" hover="bowlSound.play" onclick="strike.play">
+    <button id="button" hover={bowlSound.play} onClick={strike.play}>
       {" "}
       BOWL{" "}
     </button>
