@@ -2,7 +2,7 @@ import React from "react";
 
 function Table() {
   return (
-    <table>
+    <table id="table">
       <tbody>
         <tr>
           <td>Player</td>

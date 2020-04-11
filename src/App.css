@@ -14,20 +14,20 @@
   color: white;
 }
 
-table {
+#table {
   width: 100%;
   align-items: center;
   padding-left: 10%;
   background-color: #658ee7;
 }
 
-table.th {
+#table.th {
   text-justify: center;
   font-weight: bold;
   width: 6%;
 }
 
-table.th:first-child {
+#table.th:first-child {
   width: 14%;
 }
 
@@ -45,4 +45,22 @@ td {
 #root {
   background-color: #90adeb;
   height: 100vh;
+}
+
+#nameBox {
+  border-radius: 3px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 10%;
+}
+
+#FullBox {
+  display: flex;
+  display: row;
+}
+
+#emptyBox {
+  text-justify: center;
+  font-weight: bold;
+  width: 6%;
 }
