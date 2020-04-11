@@ -2,6 +2,7 @@ import React from "react";
 import UIfx from "uifx";
 import bowlSound from "../pix/bowl.mp3";
 import strike from "../pix/strike.mp3";
+import button from "../pix/button.png";
 
 function Button() {
   function playSound() {
@@ -10,9 +11,8 @@ function Button() {
   }
 
   return (
-    <button id="button" hover={bowlSound.play} onClick={strike.play}>
-      {" "}
-      BOWL{" "}
+    <button className="button" hover={bowlSound.play} onClick={strike.play}>
+      <img className="button" src={button} alt="button for bowling" />
     </button>
   );
 }

@@ -37,10 +37,7 @@ td {
   padding-bottom: 10px;
 }
 
-#button {
-  margin-left: 10%;
-  margin-top: 15px;
-}
+
 
 #root {
   background-color: #90adeb;
@@ -63,4 +60,16 @@ td {
   text-justify: center;
   font-weight: bold;
   width: 6%;
+}
+
+.button {
+  width: 15%;
+  float: left;
+  border-radius: 80%;
+
+}
+
+#button {
+  margin-left: 10%;
+  margin-top: 15px;
 }

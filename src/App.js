@@ -13,9 +13,10 @@ export default class App extends Component {
         <Header></Header>
         <Table></Table>
 
-        <div>
+        <div id="FullBox">
           {" "}
-          <NameBox></NameBox> <OneBox></OneBox>
+          <NameBox></NameBox>
+          <OneBox></OneBox>
         </div>
 
         <Button></Button>
