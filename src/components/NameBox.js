@@ -5,10 +5,10 @@ function NameBox() {
     <table id="nameBox">
       <tbody>
         <tr>
-          <td>Player </td>
+          <td className="playerBox">Player </td>
         </tr>
         <tr>
-          <td>P#</td>
+          <td className="pBox">P#</td>
         </tr>
       </tbody>
     </table>

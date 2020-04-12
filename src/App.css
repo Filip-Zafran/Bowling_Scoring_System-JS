@@ -14,31 +14,6 @@
   color: white;
 }
 
-#table {
-  width: 100%;
-  align-items: center;
-  padding-left: 10%;
-  background-color: #658ee7;
-}
-
-#table.th {
-  text-justify: center;
-  font-weight: bold;
-  width: 6%;
-}
-
-#table.th:first-child {
-  width: 14%;
-}
-
-td {
-  text-justify: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-
-
 #root {
   background-color: #90adeb;
   height: 100vh;
@@ -48,12 +23,23 @@ td {
   border-radius: 3px;
   border-color: black;
   border-style: solid;
-  margin-left: 10%;
+  border-right: none;
 }
 
-#FullBox {
+.playerBox {
+  width: 80px;
+  height: 15px;
+  padding-bottom: 20px;
+}
+
+.pBox {
+  height: 50px;
+}
+
+#fullBox {
   display: flex;
   display: row;
+  margin-left: 10%;
 }
 
 #emptyBox {
@@ -73,3 +59,32 @@ td {
   margin-left: 10%;
   margin-top: 15px;
 }
+
+.numberBox {
+  width: 80px;
+  height: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.smallBox {
+  width: 20px;
+  height: 15px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.smallBoxEmpty {
+  width: 40px;
+  height: 15px;
+}
+
+.scoreBox {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* probaj 2 boxes i floar right */

@@ -5,28 +5,48 @@ function OneBox() {
     <table id="nameBox">
       <tbody>
         <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-          <td>4</td>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
-          <td>9</td>
-          <td>10</td>
+          <td className="numberBox">1</td>
+          <td className="numberBox">2</td>
+          <td className="numberBox">3</td>
+          <td className="numberBox">4</td>
+          <td className="numberBox">5</td>
+          <td className="numberBox">6</td>
+          <td className="numberBox">7</td>
+          <td className="numberBox">8</td>
+          <td className="numberBox">9</td>
+          <td className="numberBox">10</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td className="emptyBox">
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+
+          <td className="emptyBox">
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">" "</td>
+          <td className="emptyBox">" "</td>
+          <td className="emptyBox">" "</td>
+          <td className="emptyBox">" "</td>
+          <td className="emptyBox">" "</td>
+          <td className="emptyBox">" "</td>
+          <td className="emptyBox">" "</td>
         </tr>
         <tr>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
+          <td className="scoreBox"> 66</td>
         </tr>
       </tbody>
     </table>
