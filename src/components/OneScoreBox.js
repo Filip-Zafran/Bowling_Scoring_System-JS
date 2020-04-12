@@ -14,7 +14,12 @@ function OneBox() {
           <td className="numberBox">7</td>
           <td className="numberBox">8</td>
           <td className="numberBox">9</td>
-          <td className="numberBox">10</td>
+          <td
+            className="numberBox"
+            style={{ width: "110px", alignItems: "center" }}
+          >
+            10
+          </td>
         </tr>
       </tbody>
 
@@ -75,14 +80,14 @@ function OneBox() {
           </td>
           <td className="emptyBox">
             {" "}
-            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
             <td className="smallBox"></td>
             <td className="smallBox"></td>
           </td>
         </tr>
         <tr>
-          <td className="scoreBox"> 66</td>
-          <td className="scoreBox"> 77</td>
+          <td className="scoreBox"> 6</td>
+          <td className="scoreBox"> 14</td>
         </tr>
       </tbody>
     </table>

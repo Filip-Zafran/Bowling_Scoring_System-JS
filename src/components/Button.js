@@ -11,8 +11,8 @@ function Button() {
   }
 
   return (
-    <button className="button" hover={bowlSound.play} onClick={strike.play}>
-      <img className="button" src={button} alt="button for bowling" />
+    <button hover={bowlSound.play} onClick={strike.play}>
+      <img className="buttonPix" src={button} alt="button for bowling" />
     </button>
   );
 }

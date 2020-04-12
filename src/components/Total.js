@@ -8,7 +8,7 @@ function TotalBox() {
           <td className="totalScoreBox">TOTAL SCORE</td>
         </tr>
         <tr>
-          <td className="pBox">123</td>
+          <td className="totalBoxDown">123</td>
         </tr>
       </tbody>
     </table>

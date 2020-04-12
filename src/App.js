@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import NameBox from "./components/NameBox";
 import OneBox from "./components/OneScoreBox";
 import TotalBox from "./components/Total";
+import Footer from "./components/Footer";
 import Button from "./components/Button";
 
 export default class App extends Component {
@@ -18,8 +19,8 @@ export default class App extends Component {
           <OneBox></OneBox>
           <TotalBox></TotalBox>
         </div>
-
         <Button></Button>
+        <Footer></Footer>
       </React.Fragment>
     );
   }

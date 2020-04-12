@@ -58,12 +58,12 @@
 
 .pBox {
   height: 66px;
-  text-align: center;
 }
 
 .totalBoxDown {
   height: 66px;
   text-align: center;
+  font-size: 40px;
 }
 
 #fullBox {
@@ -78,15 +78,17 @@
   width: 6%;
 }
 
-.button {
-  width: 15%;
-  float: left;
+button {
+  margin-left: 5%;
+  padding: 0px;
   border-radius: 80%;
+  width: 85px;
+  height: 85px;
 }
 
-#button {
-  margin-left: 10%;
-  margin-top: 15px;
+.buttonPix {
+  border-radius: 80%;
+  width: 100%;
 }
 
 .numberBox {
@@ -118,5 +120,14 @@
 }
 
 
+.footer {
+  background-color: #253d70;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+}
 
 /* probaj 2 boxes i float right */
