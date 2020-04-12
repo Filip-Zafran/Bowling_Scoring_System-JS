@@ -53,7 +53,6 @@
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
-
 }
 
 .pBox {
@@ -72,10 +71,10 @@
   margin: 5%;
 }
 
-#emptyBox {
-  text-justify: center;
-  font-weight: bold;
-  width: 6%;
+.scoreBoxContainer10 {
+  width: 110px;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -119,7 +118,6 @@ button {
   padding: 0px;
 }
 
-
 .footer {
   background-color: #253d70;
   bottom: 0;
@@ -127,7 +125,6 @@ button {
   width: 100%;
   text-align: center;
   color: white;
-
 }
 
 /* probaj 2 boxes i float right */

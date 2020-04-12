@@ -3,6 +3,7 @@ import UIfx from "uifx";
 import bowlSound from "../pix/bowl.mp3";
 import strike from "../pix/strike.mp3";
 import button from "../pix/button.png";
+import Bowl from "./ScoreGenerator";
 
 function Button() {
   function playSound() {
@@ -11,15 +12,20 @@ function Button() {
   }
 
   return (
-    <button hover={bowlSound.play} onClick={strike.play}>
+    <button
+      hover={bowlSound.play}
+      // onClick={strike.play}
+      onClick={Bowl}
+    >
       <img className="buttonPix" src={button} alt="button for bowling" />
     </button>
   );
 }
+console.log(button);
 
 export default Button;
 
-// scource
+// SOUND scource
 // https://alligator.io/react/adding-sound-to-your-react-apps/
 
 // DICE ROLL
