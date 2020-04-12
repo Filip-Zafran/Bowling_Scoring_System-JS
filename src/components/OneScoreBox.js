@@ -2,7 +2,7 @@ import React from "react";
 
 function OneBox() {
   return (
-    <table id="nameBox">
+    <table id="tableBox">
       <tbody>
         <tr>
           <td className="numberBox">1</td>
@@ -37,16 +37,52 @@ function OneBox() {
             <td className="smallBox"></td>
             <td className="smallBox"></td>
           </td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
-          <td className="emptyBox">" "</td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
+          <td className="emptyBox">
+            {" "}
+            <td className="smallBoxEmpty"></td>
+            <td className="smallBox"></td>
+            <td className="smallBox"></td>
+          </td>
         </tr>
         <tr>
           <td className="scoreBox"> 66</td>
+          <td className="scoreBox"> 77</td>
         </tr>
       </tbody>
     </table>

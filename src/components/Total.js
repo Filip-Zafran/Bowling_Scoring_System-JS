@@ -2,10 +2,10 @@ import React from "react";
 
 function TotalBox() {
   return (
-    <table id="nameBox">
+    <table id="totalBox">
       <tbody>
         <tr>
-          <td className="playerBox">TOTAL SCORE</td>
+          <td className="totalScoreBox">TOTAL SCORE</td>
         </tr>
         <tr>
           <td className="pBox">123</td>
