@@ -33,7 +33,7 @@
 }
 
 .pBox {
-  height: 50px;
+  height: 55px;
 }
 
 #fullBox {
@@ -82,9 +82,10 @@
 
 .scoreBox {
   width: 80px;
-  height: 30px;
+  height: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  padding: 0px;
 }
 
 /* probaj 2 boxes i floar right */

@@ -18,3 +18,5 @@ function NameBox() {
 export default NameBox;
 
 // if new row {number ++}
+
+// Add player function

@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import NameBox from "./components/NameBox";
 import OneBox from "./components/OneScoreBox";
+import TotalBox from "./components/Total";
 import Button from "./components/Button";
 
 export default class App extends Component {
@@ -15,6 +16,7 @@ export default class App extends Component {
           {" "}
           <NameBox></NameBox>
           <OneBox></OneBox>
+          <TotalBox></TotalBox>
         </div>
 
         <Button></Button>
