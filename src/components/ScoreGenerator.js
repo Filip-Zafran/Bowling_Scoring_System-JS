@@ -1,9 +1,10 @@
 // function scoreGenerator() {
 // var dieSimulator = function (2, 10) {};
 // }
-
 // export scoreGenerator
 
-const Bowl = Math.ceil(Math.random() * 10);
+// const Bowl = Math.ceil(Math.random() * 10);
 
-export default Bowl;
+const random = Math.floor(Math.random() * 10) + 1;
+
+export default random;

@@ -8,7 +8,6 @@ function Header() {
       <header className="App-header">
         <img src={pins} className="pins" alt="bowling pins" />
         <p>Keep score! </p>
-        <br />
       </header>
     </div>
   );

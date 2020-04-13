@@ -3,7 +3,7 @@ import UIfx from "uifx";
 import bowlSound from "../pix/bowl.mp3";
 import strike from "../pix/strike.mp3";
 import button from "../pix/button.png";
-import Bowl from "./ScoreGenerator";
+import random from "./ScoreGenerator";
 
 function Button() {
   function playSound() {
@@ -15,7 +15,7 @@ function Button() {
     <button
       hover={bowlSound.play}
       // onClick={strike.play}
-      onClick={Bowl}
+      onClick={random}
     >
       <img className="buttonPix" src={button} alt="button for bowling" />
     </button>
