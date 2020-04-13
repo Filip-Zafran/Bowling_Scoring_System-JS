@@ -2,26 +2,29 @@ import React from "react";
 import UIfx from "uifx";
 import bowlSound from "../pix/bowl.mp3";
 import strike from "../pix/strike.mp3";
-import button from "../pix/button.png";
+import buttonPicture from "../pix/button.png";
 import random from "./ScoreGenerator";
 
 function Button() {
-  function playSound() {
-    const bowlSound = new UIfx({ asset: bowlSound });
-    const strike = new UIfx({ asset: strike });
-  }
+  const bowlFx = new UIfx(bowlSound);
+  const strikeFx = new UIfx(strike);
 
   return (
     <button
-      hover={bowlSound.play}
-      // onClick={strike.play}
-      onClick={random}
+      onMouseEnter={() => {
+        bowlFx.play();
+      }}
+      onClick={() => {
+        strikeFx.play();
+
+        const blabla = random();
+        console.log(blabla);
+      }}
     >
-      <img className="buttonPix" src={button} alt="button for bowling" />
+      <img className="buttonPix" src={buttonPicture} alt="button for bowling" />
     </button>
   );
 }
-console.log(button);
 
 export default Button;
 
